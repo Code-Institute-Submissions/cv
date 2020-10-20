@@ -317,3 +317,32 @@ footer {
 .history-items {
   margin-bottom: 30px;
 }
+
+/* -------------------------------------- Summary / Skills / Projects / Passion & Ref. */
+
+.progress {
+  position: relative;
+  height: 25px;
+  margin-bottom: 4px;
+}
+
+.progress-type {
+  position: absolute;
+  left: 0px;
+  font-weight: 400;
+  padding: 12px 30px 12px 15px;
+  color: #fafafa;
+  background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+  margin: 40px 20px;
+}
+
+.card-deck {
+  margin: 30px;
+}
+
+.card-footer {
+  text-align: center;
+}
