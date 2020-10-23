@@ -4,11 +4,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-
 /* ---------------------------------------------------- Colors */
 
 .bg-color-name-title {
-  background-color: #070d59;
+  background: url("../images/web-developer-wallpaper.jpg") no-repeat bottom
+    center fixed;
 }
 
 .bg-color-three-reasons {
@@ -107,19 +107,19 @@ header {
 
 .name {
   font-family: "Exo", sans-serif;
-  font-weight: 100;
+  font-weight: 300;
   font-size: 46px;
   margin-top: 50px;
-  color: #fff;
+  color: #fafafa;
 }
 
 .title {
   font-family: "Roboto", sans-serif;
-  font-weight: 200;
+  font-weight: 500;
   font-size: 28px;
   margin-top: 20px;
   margin-bottom: 90px;
-  color: #fff;
+  color: #fafafa;
 }
 
 .list-inline-item:not(:last-child) {
@@ -352,13 +352,23 @@ footer {
   text-align: center;
 }
 
+.see-more {
+  margin: 70px 70px;
+  display: inline;
+  text-align: center;
+}
+
 /* -------------------------------------- Contact Form */
+
+.bg-color-contact {
+  background-color: #c765ae;
+}
 
 .contact-heading {
   font-family: "Exo", sans-serif;
   font-weight: 300;
-  margin-top: 25px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .center-form {
