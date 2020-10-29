@@ -2,7 +2,7 @@
 
 ## A clean, beautiful and responsive portfolio made with **HTML5**, **CSS3**, and **Bootstrap 4.5**
 
-<a target="_blank" rel="noopener noreferrer" href="assets/videos/intro.gif"><img src="" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="/assets/images/intro.gif"><img src="/assets/images/intro.gif" style="max-width:100%;"></a>
 
 This is a personal portfolio website, and on it's **HOME** page it provides users with my Personal Info, About Me (What Do I Do?; How I Do It?; and Why Hire Me?).
 
