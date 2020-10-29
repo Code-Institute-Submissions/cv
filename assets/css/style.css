@@ -4,10 +4,13 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
 /* ---------------------------------------------------- Colors */
 
 .bg-color-name-title {
-  background: url("../images/web-developer-wallpaper.jpg") no-repeat bottom
+  background: url("../images/web-developer-wallpaper.jpg") no-repeat right
     center fixed;
 }
 
@@ -400,10 +403,15 @@ button[type="submit"] {
   background-repeat: no-repeat;
   background-attachment: fixed;
   border-style: solid;
-  border-width: medium;
+  border-right: medium;
+  border-left: medium;
+  border-bottom: medium;
   border-color: #f4f4f4;
 }
 
+.contact-img {
+  border: 0;
+}
 .wrapper-1 {
   width: 100%;
   height: 100vh;
@@ -416,7 +424,7 @@ button[type="submit"] {
   text-align: center;
 }
 
-.wrapper-2 h1 {
+.wrapper-2 h2 {
   font-family: "Raleway", Arial Black, Sans-Serif;
   font-size: 4em;
   font-weight: 900;
@@ -435,25 +443,55 @@ button[type="submit"] {
   letter-spacing: 1px;
   line-height: 1.5;
 }
+
+.go-home-button {
+  margin-top: 50px;
+  text-align: center;
+}
 .go-home {
   background: #f6830f;
+  text-decoration: none;
   border: none;
-  padding: 25px 30px;
-  margin: 30px 0;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.go-home:hover {
-  opacity: 0.9;
-}
-.go-home a {
   font-family: "Raleway", Arial Black;
   color: white;
-  text-decoration: none;
   font-size: 1rem;
   font-weight: 700 !important;
   text-transform: uppercase;
   letter-spacing: 2px;
+  padding: 25px 30px;
+  margin: 50px 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.go-home:hover {
+  opacity: 0.9;
+  text-decoration: none;
+  color: white;
+}
+
+/* -------------------------------------- Go Back To Up */
+
+.gotopbtn {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #f6830f;
+  bottom: 40px;
+  right: 20px;
+  border-radius: 50%;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: #fafafa;
+  font-size: 32px;
+}
+
+.gotopbtn:hover {
+  opacity: 0.9;
+  color: #fafafa;
+  border-color: #fafafa;
 }
 
 /* -------------------------------------- Media Queries */
